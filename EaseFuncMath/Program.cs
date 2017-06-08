@@ -13,28 +13,26 @@ namespace ConsoleApp7
             {
                 //double v = LinearTween(i, from, to, duration);
                 //double v = EaseInQuad(i, from, to, duration);
-                double v = EaseOutQuad(i, from, to, duration);
-                Console.WriteLine(v);
+                //double v = EaseOutQuad(i, from, to, duration);
+                //Console.WriteLine(v);
             }
         }
 
-        public static double LinearTween(int currentTime, double from, double to, int duration)
+        public static double LinearTween(double time, double begin, double change, double duration)
         {
-            return to * currentTime / duration + from;
+            return change * time / duration + begin;
         }
 
-        public static double EaseInQuad(int currentTime, double from, double to, int duration)
+        public static double EaseInQuad(double time, double begin, double change, double duration)
         {
-            double t = currentTime;
-            t /= duration;
-            return to * t * t + from;
+            time /= duration;
+            return change * time * time + begin;
         }
 
-        public static double EaseOutQuad(int currentTime, double from, double to, int duration)
+        public static double EaseOutQuad(double time, double begin, double change, double duration)
         {
-            double t = currentTime;
-            t /= duration;
-            return -to * t * (t - 2) + from;
+            time /= duration;
+            return -change * time * (time - 2) + begin;
         }
     }
 }
