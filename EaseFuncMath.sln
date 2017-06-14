@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EaseFuncMath", "EaseFuncMath\EaseFuncMath.csproj", "{73C3F3BE-34F1-44B9-9097-8141A807B4A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EaseFuncMath.Lib", "EaseFuncMath.Lib\EaseFuncMath.Lib.csproj", "{32F91AFF-9783-44A9-BA91-83DF210C23B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73C3F3BE-34F1-44B9-9097-8141A807B4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C3F3BE-34F1-44B9-9097-8141A807B4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C3F3BE-34F1-44B9-9097-8141A807B4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F91AFF-9783-44A9-BA91-83DF210C23B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F91AFF-9783-44A9-BA91-83DF210C23B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F91AFF-9783-44A9-BA91-83DF210C23B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F91AFF-9783-44A9-BA91-83DF210C23B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
